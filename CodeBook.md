@@ -48,6 +48,6 @@ It contains 180 observations of 75 variables:
 
 subject - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
 
-activity - Descriptive activity name the subject perfomed
+activity - Descriptive activity name the subject perfomed (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
 
 Average of means and standard deviation for features described in features_info.txt of original dataset
