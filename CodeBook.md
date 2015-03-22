@@ -47,5 +47,7 @@ Script checks for dataset and downloads and extracts it if neccesary. All the tr
 It contains 180 observations of 75 variables:
 
 subject - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 activity - Descriptive activity name the subject perfomed
+
 Average of means and standard deviation for features described in features_info.txt of original dataset
