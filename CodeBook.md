@@ -42,7 +42,7 @@ Notes:
 
 ### Processed data
 
-Script checks for dataset and downloads and extracts it if neccesary. All the training data is read into train variable, activity and subject ids are added as additional columns to features data from X_train.txt file. The same is done with test data and test variable, then these variables get merged into the dataset var. Then feature names get extracted from dataset to filter only mean() and std() features along with mean features for angles. Then dataset is cutoff to contain only that features along with subject and activity ids. Than activity labels are merged with dataset by activity ids and activity ids are removed. Than feature labels are tidied and added to the dataset. At last we calculate summary and write it to file named results.txt
+Script checks for dataset and downloads and extracts it if neccesary. All the training data is read into train variable, activity and subject ids are added as additional columns to features data from X_train.txt file. The same is done with test data and test variable, then these variables get merged into the dataset var. Then feature names get extracted from dataset to filter only mean() and std() features along with mean features for angles. Then dataset is cutoff to contain only that features along with subject and activity ids. Than activity labels are merged with dataset by activity ids and activity ids are removed. Than feature labels are tidied (make them correct R variables by removing ```()-,``` symbols) and added to the dataset. At last we calculate summary with the average of each variable for each activity and each subject and write it to file named results.txt.
 
 It contains 180 observations of 75 variables:
 
